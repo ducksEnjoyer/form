@@ -1,0 +1,15 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "working on forms and how data is sent to backend",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alwaysMyself",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
