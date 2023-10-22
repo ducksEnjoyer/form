@@ -1,5 +1,13 @@
-h1{
+h1,h2,h3{
     color:rgb(25, 30, 30);
     background-color: aquamarine;
     text-align: center;
+}
+.old{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+    margin-left: 140px;
+    margin-right: 140px;
 }
