@@ -1,7 +1,5 @@
-h1,h2,h3{
-    color:rgb(25, 30, 30);
-    background-color: aquamarine;
-    text-align: center;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .old{
     display: flex;
@@ -11,3 +9,23 @@ h1,h2,h3{
     margin-left: 140px;
     margin-right: 140px;
 }
+.title {
+    width: fit-content;
+    margin: 3rem auto;
+}
+
+a{
+    width: 230px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* its good enough lets go on  AHHHHH WHY DOESNT IT WORK hmmm oh ye u mean here its not button so how does text align doest workkkkkkkk
+WHERE S MY 230 weird perfect now the buttons i want them BIG and a bit more close to each other like in fact rlly close
+margin: x-axis, y-axis, auto means equal so not a lot and fit-content ? makes it take only necessary space instead of everything, otherwise margin wouldnt work because he couldnt add any margin because it would taking all the width
+title middle and bit more below too do it as u want xD yay css, better than bootstrap xD oh so u use fit-content everywhere not always, you dont need that for flex children because they will take good width but h1 is children of body so it should take the right place too body is not a flex parent oh ok
+i can do all of that with css? yay that? a bit more below how did u center it ? and it s a lot 1rem ? 1 rem is 16pixels on usuall computers
+*/
