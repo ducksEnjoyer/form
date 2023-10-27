@@ -5,7 +5,7 @@ form.addEventListener("submit",(e)=>{
     const french = document.querySelector("#french").value
     const english = document.querySelector("#english").value
     console.log(`ceci est french : "${french}" et ceci est english : "${english}"`)
-    fetch("http://localhost:8000/iWant",{
+    fetch("/add/words",{
         method: "POST",
         body: JSON.stringify({
             "french" : french,

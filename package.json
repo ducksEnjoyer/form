@@ -4,7 +4,7 @@
   "description": "working on forms and how data is sent to backend",
   "main": "server.js",
   "scripts": {
-    "start": "node --watch server.js",
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alwaysMyself",
@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.6.3"
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
   }
 }
