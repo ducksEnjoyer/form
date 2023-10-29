@@ -5,8 +5,7 @@ const {
   
 } = require("../controller/translateController") 
 const router = express.Router()
-// good now
-router.post("/words", addWord);
 
-router.get("/", getWords);
+router.post("/words", addWord);
+router.get("/words", getWords);
 module.exports = router;

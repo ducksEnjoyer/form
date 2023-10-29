@@ -8,6 +8,6 @@ const FrenchToEnglishSchema = mongoose.Schema({
         type: String,
         required: true,
       }
-    })  //how do i call it addWordController.js --WATCH DOESNT WORK LOOKit restart in loop bruhh its werd 1s? ?hmm 
-const FrenchToEnglish = mongoose.model("FrenchToEnglish", FrenchToEnglishSchema);
+    }) 
+const FrenchToEnglish = mongoose.model("FrenchToEnglish", FrenchToEnglishSchema); //so FrenchToEnglish is the name of the collection right ? yeah hmm ok ok 
 module.exports = FrenchToEnglish;
