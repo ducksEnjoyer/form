@@ -22,7 +22,7 @@ function AddWords() {
         "Content-Type": "application/json"
       }
     })
-    const data = await response.json(); //oh i see so we re all good  ? i think you forgot to set in input value = english wdym ?  and it doesnt console.... hmmm wait i know i think why
+    const data = await response.json(); //oh i see so we re all good  ? i think you forgot to set in input value = english wdym ?  and it doesnt console.... hmmm wait i know i think why ur english is getting worst and worst with time xD
     console.log(data);//nope hmm
     // nice i forgot about that lets try now
     setFrench("")//it didnt like localhost lmao oh yeah http:// xD

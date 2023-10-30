@@ -9,5 +9,5 @@ const FrenchToEnglishSchema = mongoose.Schema({
         required: true,
       }
     }) 
-const FrenchToEnglish = mongoose.model("FrenchToEnglish", FrenchToEnglishSchema); //so FrenchToEnglish is the name of the collection right ? yeah hmm ok ok 
+const FrenchToEnglish = mongoose.model("FrenchToEnglish", FrenchToEnglishSchema); //so FrenchToEnglish is the name of the collection right ? yeah hmm ok ok so now we ll just need on game side to fetch this and we ll have our beautiful array
 module.exports = FrenchToEnglish;
